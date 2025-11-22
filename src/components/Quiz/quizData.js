@@ -111,5 +111,15 @@ export const questions = [
             "Não sei"
         ],
         image: "/hero_background_spiritual_1763849860478.png" // Reused
+    },
+    {
+        id: 11,
+        question: "Você estaria disposta(o) a investir em um próximo passo e caminhar lado a lado com a Andressa nessa nova fase da sua vida?",
+        options: [
+            "Claro",
+            "Talvez",
+            "Não"
+        ],
+        image: "/hero_background_spiritual_1763849860478.png" // Reused
     }
 ];

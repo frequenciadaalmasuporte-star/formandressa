@@ -54,7 +54,8 @@ const QuizContainer = () => {
             question_7: answers[7] || '',
             question_8: answers[8] || '',
             question_9: answers[9] || '',
-            question_10: answers[10] || ''
+            question_10: answers[10] || '',
+            question_11: answers[11] || ''
         };
 
         try {
