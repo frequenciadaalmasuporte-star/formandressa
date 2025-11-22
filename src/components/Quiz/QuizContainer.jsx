@@ -36,30 +36,33 @@ const QuizContainer = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Map answers to the field names expected by Netlify
-        const formattedAnswers = {};
-        Object.keys(answers).forEach(key => {
-            formattedAnswers[`question_${key}`] = answers[key];
-        });
+        if (!supabase) {
+            alert('Erro de configuração. Tente novamente.');
+            setIsSubmitting(false);
+            return;
+        }
 
-        const formDataToSubmit = {
-            'form-name': 'leads',
-            ...formattedAnswers,
-            ...formData
-        };
-
-        const encode = (data) => {
-            return Object.keys(data)
-                .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-                .join("&");
+        const leadData = {
+            whatsapp: formData.whatsapp,
+            email: formData.email,
+            question_1: answers[1] || '',
+            question_2: answers[2] || '',
+            question_3: answers[3] || '',
+            question_4: answers[4] || '',
+            question_5: String(answers[5] || ''),
+            question_6: answers[6] || '',
+            question_7: answers[7] || '',
+            question_8: answers[8] || '',
+            question_9: answers[9] || '',
+            question_10: answers[10] || ''
         };
 
         try {
-            await fetch("/", {
-                method: "POST",
-                headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: encode(formDataToSubmit)
-            });
+            const { error } = await supabase
+                .from('leads')
+                .insert([leadData]);
+
+            if (error) throw error;
 
             setIsCompleted(true);
         } catch (error) {
