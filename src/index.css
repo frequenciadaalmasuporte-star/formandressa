@@ -14,6 +14,28 @@
   --glow-strong: 0 0 20px var(--color-primary-glow);
   --glow-soft: 0 0 10px rgba(157, 78, 221, 0.3);
 }
+/* Bloqueia elementos fixos no canto inferior direito com z-index alto */
+[style*="position: fixed"][style*="bottom"][style*="right"][style*="z-index: 2147483647"],
+[style*="position:fixed"][style*="bottom"][style*="right"][style*="z-index:2147483647"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Bloqueia links fixos no canto inferior */
+a[style*="position: fixed"][style*="bottom"],
+a[style*="position:fixed"][style*="bottom"] {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Bloqueia divs com z-index muito alto */
+div[style*="z-index: 2147483647"],
+div[style*="z-index:2147483647"] {
+  display: none !important;
+  visibility: hidden !important;
+}
 
 * {
   box-sizing: border-box;
