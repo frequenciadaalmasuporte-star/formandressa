@@ -9,7 +9,7 @@ const QuizContainer = () => {
     const [answers, setAnswers] = useState({});
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isCompleted, setIsCompleted] = useState(false);
-    const [formData, setFormData] = useState({ whatsapp: '', email: '' });
+    const [formData, setFormData] = useState({ name: '', whatsapp: '', email: '' });
 
     const handleAnswer = (answer) => {
         setAnswers({ ...answers, [questions[currentStep].id]: answer });
@@ -43,6 +43,7 @@ const QuizContainer = () => {
         }
 
         const leadData = {
+            name: formData.name,
             whatsapp: formData.whatsapp,
             email: formData.email,
             question_1: answers[1] || '',
@@ -55,7 +56,13 @@ const QuizContainer = () => {
             question_8: answers[8] || '',
             question_9: answers[9] || '',
             question_10: answers[10] || '',
-            question_11: answers[11] || ''
+            question_11: answers[11] || '',
+            question_12: answers[12] || '',
+            question_13: answers[13] || '',
+            question_14: answers[14] || '',
+            question_15: answers[15] || '',
+            question_16: answers[16] || '',
+            question_17: answers[17] || ''
         };
 
         try {
@@ -109,6 +116,21 @@ const QuizContainer = () => {
                     </p>
 
                     <form onSubmit={submitQuiz} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                        <div>
+                            <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem' }}>Nome</label>
+                            <input
+                                type="text"
+                                name="name"
+                                required
+                                placeholder="Seu nome completo"
+                                value={formData.name}
+                                onChange={handleFormChange}
+                                style={{
+                                    width: '100%', padding: '1rem', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.2)',
+                                    background: 'rgba(0,0,0,0.3)', color: '#fff', fontSize: '1rem'
+                                }}
+                            />
+                        </div>
                         <div>
                             <label style={{ display: 'block', marginBottom: '0.5rem', fontSize: '0.9rem' }}>WhatsApp (com DDD)</label>
                             <input

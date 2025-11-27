@@ -30,7 +30,7 @@ const Bio = () => {
 
                     <div style={{ textAlign: 'center' }}>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
-                            Quem vai ler suas respostas e decidir a seleção
+                            Sobre mim
                         </h2>
                         <div style={{
                             width: '50px',
@@ -39,13 +39,13 @@ const Bio = () => {
                             margin: '0 auto 2rem'
                         }}></div>
                         <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                            <strong style={{ color: '#fff' }}>Andressa Campos</strong> é terapeuta, mentora e especialista no campo eletromagnético do coração.
+                            <strong style={{ color: '#fff' }}>Andressa Campos</strong> é naturóloga, especialista no inconsciente, mentora e facilitadora de retiros e grupos há 22 anos. Hoje, seu trabalho é inteiramente dedicado ao estudo e à expansão do campo eletromagnético do coração.
                         </p>
                         <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                            Depois de ajudar milhares de mulheres a saírem da escassez, ela percebeu que algumas alunas precisam de um nível de acompanhamento mais próximo — em grupo, mas com atenção individual.
+                            Depois de ajudar milhares de pessoas a saírem da escassez e reconstruírem sua força interna, ela percebeu que algumas alunas/os precisam de um nível de acompanhamento mais próximo — em grupo, mas com atenção individual.
                         </p>
                         <p style={{ fontSize: '1.1rem', color: 'var(--color-text-muted)' }}>
-                            Este diagnóstico existe para identificar quem está no momento certo para essa fase privada.
+                            Este diagnóstico existe para identificar quem está no momento certo para dar o salto que o coração já vem pedindo — o salto de frequência que abre novas possibilidades.
                         </p>
                     </div>
                 </div>

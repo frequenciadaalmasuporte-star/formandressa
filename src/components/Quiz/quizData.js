@@ -29,7 +29,7 @@ export const questions = [
         question: "O que mais drena sua energia hoje?",
         options: [
             "Problemas financeiros",
-            "Relações familiares",
+            "Relacionamento afetivo",
             "Sobrecarga mental",
             "Falta de apoio",
             "Culpa/autocobrança",
@@ -114,12 +114,63 @@ export const questions = [
     },
     {
         id: 11,
+        question: "Você já participou de jornada mais profundas em grupo antes? Como foi a sua experiência?",
+        type: "text",
+        image: "/quiz_connection_self_1763849929534.png"
+    },
+    {
+        id: 12,
+        question: "Você faz acompanhamento terapêutico hoje?",
+        options: [
+            "Sim",
+            "Não",
+            "Já fiz no passado",
+            "Nunca fiz"
+        ],
+        image: "/quiz_pain_emotional_1763849889444.png"
+    },
+    {
+        id: 13,
+        question: "Qual tradição espiritual ou religião você tem como guia no seu coração?",
+        type: "text",
+        image: "/hero_background_spiritual_1763849860478.png"
+    },
+    {
+        id: 14,
+        question: "Há quanto tempo você vem tentando uma transformação verdadeira? E me conta, o que você já fez para isso acontecer?",
+        type: "text",
+        image: "/quiz_connection_self_1763849929534.png"
+    },
+    {
+        id: 15,
+        question: "Hoje você escuta uma voz interna ou sente que verdadeiramente chegou o seu momento de fazer as coisas acontecerem na sua vida?",
+        options: [
+            "É exatamente essa impressão que tenho",
+            "Parece que nunca esteve tão claro como antes",
+            "Sensação que despertei para o meu real merecimento",
+            "Não sinto nada disso"
+        ],
+        image: "/hero_background_spiritual_1763849860478.png"
+    },
+    {
+        id: 16,
+        question: "Você sente que está pronta para uma fase guiada mais próxima e profunda?",
+        options: [
+            "Sim, completamente",
+            "Acho que sim",
+            "Ainda tenho medo",
+            "Não sei"
+        ],
+        image: "/hero_background_spiritual_1763849860478.png"
+    },
+    {
+        id: 17,
         question: "Você estaria disposta(o) a investir em um próximo passo e caminhar lado a lado com a Andressa nessa nova fase da sua vida?",
         options: [
             "Claro",
             "Talvez",
             "Não"
         ],
-        image: "/hero_background_spiritual_1763849860478.png" // Reused
+        image: "/hero_background_spiritual_1763849860478.png"
     }
 ];
