@@ -139,7 +139,7 @@ export const questions = [
         id: 14,
         question: "Há quanto tempo você vem tentando uma transformação verdadeira? E me conta, o que você já fez para isso acontecer?",
         type: "text",
-        image: "/quiz_connection_self_1763849929534.png"
+        image: "https://portalamoregraca.com.br/_site/upload/noticias/a-verdadeira-transformacao-287.png"
     },
     {
         id: 15,
