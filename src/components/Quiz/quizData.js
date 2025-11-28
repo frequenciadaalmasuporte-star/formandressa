@@ -99,7 +99,7 @@ export const questions = [
         id: 9,
         question: "Existe algo que você nunca contou a ninguém sobre sua vida emocional/financeira, mas quer que a Andressa saiba?",
         type: "text",
-        image: "/quiz_connection_self_1763849929534.png" // Reused
+        image: "https://cvv.org.br/wp-content/uploads/2023/05/AA36ED36-C7D7-4874-BC36-78A75A3892D9-1.jpeg" // Reused
     },
     {
         id: 10,
