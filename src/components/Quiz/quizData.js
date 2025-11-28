@@ -93,7 +93,7 @@ export const questions = [
             "Ativar frequência do coração",
             "Encontrar um caminho firme"
         ],
-        image: "/quiz_scarcity_cycle_1763849903557.png" // Reused
+        image: "https://conteudo.imguol.com.br/c/entretenimento/e6/2016/03/10/cerebro-problemas-mentais-transtornos-mentais-1457635865786_615x470.jpg" // Reused
     },
     {
         id: 9,
