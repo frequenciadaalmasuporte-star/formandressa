@@ -127,7 +127,7 @@ export const questions = [
             "Já fiz no passado",
             "Nunca fiz"
         ],
-        image: "/quiz_pain_emotional_1763849889444.png"
+        image: "https://interhelpinternacao.com.br/blog/wp-content/uploads/2020/08/acompanhamento-terapeutico.jpg"
     },
     {
         id: 13,
