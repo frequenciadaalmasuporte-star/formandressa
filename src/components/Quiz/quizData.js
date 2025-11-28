@@ -133,7 +133,7 @@ export const questions = [
         id: 13,
         question: "Qual tradição espiritual ou religião você tem como guia no seu coração?",
         type: "text",
-        image: "/hero_background_spiritual_1763849860478.png"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoQh6muiEkMxuZ1knIFoATRicX2YIxk6HFw&s"
     },
     {
         id: 14,
