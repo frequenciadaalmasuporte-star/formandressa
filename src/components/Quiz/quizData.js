@@ -171,6 +171,6 @@ export const questions = [
             "Talvez",
             "Não"
         ],
-        image: "/hero_background_spiritual_1763849860478.png"
+        image: "https://thumbs.dreamstime.com/b/pessoas-se-ajudando-subir-uma-montanha-no-nascer-do-sol-dando-m%C3%A3o-dar-ajuda-e-um-conceito-de-estilo-vida-ativo-178142279.jpg"
     }
 ];
