@@ -68,7 +68,7 @@ const Hero = ({ onStart }) => {
                     lineHeight: 1.6
                 }}>
                     Se você já é aluna ou aluno, este é o próximo passo natural da sua jornada.
-                    A Andressa está formando um grupo pequeno e guiado de perto para mulheres que realmente estão prontas para destravar vida emocional, prosperidade e clareza espiritual usando os 40 mil neurônios do coração.
+                    A Andressa está formando um grupo pequeno e guiado de perto para alunas e alunos que realmente estão prontas para destravar vida emocional, prosperidade e clareza espiritual usando os 40 mil neurônios do coração.
                 </p>
 
                 <button onClick={onStart} className="btn-primary">
