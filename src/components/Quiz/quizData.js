@@ -103,11 +103,11 @@ export const questions = [
     },
     {
         id: 10,
-        question: "Você sente que está pronta para uma fase guiada mais próxima e profunda?",
+        question: "Vc costuma ter sonhos repetitivos? (Sonhos quando dorme)",
         options: [
-            "Sim, completamente",
-            "Acho que sim",
-            "Ainda tenho medo",
+            "Sim, muito!",
+            "Sim, as vezes",
+            "Nao",
             "Não sei"
         ],
         image: "/hero_background_spiritual_1763849860478.png" // Reused
