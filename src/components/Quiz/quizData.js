@@ -150,7 +150,7 @@ export const questions = [
             "Sensação que despertei para o meu real merecimento",
             "Não sinto nada disso"
         ],
-        image: "/hero_background_spiritual_1763849860478.png"
+        image: "https://cdn.universoracionalista.org/wp-content/uploads/2024/05/vozes-internas-_a58ebd44-c8f1-4338-92df-cb7ffaa4c20c-jpg.webp"
     },
     {
         id: 16,
