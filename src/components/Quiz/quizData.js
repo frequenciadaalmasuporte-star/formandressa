@@ -116,7 +116,7 @@ export const questions = [
         id: 11,
         question: "Você já participou de jornada mais profundas em grupo antes? Como foi a sua experiência?",
         type: "text",
-        image: "/quiz_connection_self_1763849929534.png"
+        image: "https://s3.amazonaws.com/ibc-portal/wp-content/uploads/2017/07/20161538/trabalho-em-equipe-resultados.jpg"
     },
     {
         id: 12,
