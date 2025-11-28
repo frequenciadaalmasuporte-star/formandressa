@@ -10,7 +10,7 @@ const Footer = () => {
             fontSize: '0.9rem'
         }}>
             <div className="container">
-                <p>© 2025 Andressa Campos – Frequência da Alma. Página interna para alunas.</p>
+                <p>© 2025 Andressa Campos – Frequência da Alma. Página interna para alunas e alunos.</p>
             </div>
         </footer>
     );
