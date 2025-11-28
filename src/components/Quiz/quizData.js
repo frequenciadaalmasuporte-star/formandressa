@@ -68,7 +68,7 @@ export const questions = [
             "Autoconfiança",
             "Outro"
         ],
-        image: "/quiz_connection_self_1763849929534.png", // Reused
+        image: "https://sanoma.it/hubfs/Science%20Factory/Articoli-Immagini/shutterstock_557126443_SF-04Aprile2024_Boccomino01.jpg", // Reused
         hasCustomInput: true
     },
     {
