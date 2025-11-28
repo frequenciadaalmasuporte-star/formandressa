@@ -161,7 +161,7 @@ export const questions = [
             "Ainda tenho medo",
             "Não sei"
         ],
-        image: "/hero_background_spiritual_1763849860478.png"
+        image: "https://media.licdn.com/dms/image/v2/C4D12AQGpRvkdj6Rn1Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1612356347600?e=2147483647&v=beta&t=Pg_oloFuHpCKuT6G_KGU1cL6kUNhbjuAYrCafpma-Qo"
     },
     {
         id: 17,
