@@ -110,7 +110,7 @@ export const questions = [
             "Nao",
             "Não sei"
         ],
-        image: "/hero_background_spiritual_1763849860478.png" // Reused
+        image: "https://psicurtir.com.br/wp-content/uploads/2025/04/Interpretacao-de-sonhos1.jpg" // Reused
     },
     {
         id: 11,
